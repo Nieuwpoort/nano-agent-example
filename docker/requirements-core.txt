@@ -1,0 +1,8 @@
+# Core dependencies (stateless LLM runtime)
+langchain
+langchain-ollama
+flask[async]
+flask-cors
+waitress
+requests
+python-dotenv

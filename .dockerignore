@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+*.egg-info/
+
+# Rust build artifacts (will be built in Docker)
+rust_pow/target/
+rust_pow/Cargo.lock
+*.rs.bk
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Documentation (except README)
+*.md
+!README.md
+!THIRD_PARTY_LICENSES.md
+documentation/
+
+# Test files
+tests/
+test_*.py
+
+# Logs
+*.log
+
+# Data directories
+data/wallets/
+data/ai_wallets/
+
+# Scripts
+*.sh
+*.ps1
+!check-mode.sh
+!init-env.sh
+
+# Environment files
+.env.backup
+.env.local

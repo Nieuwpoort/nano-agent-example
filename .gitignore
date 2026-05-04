@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+
+/work_server
+
+# Wallet data (NEVER commit!)
+/data*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env.local
+.env
+
+# Docker
+*.log
+
+#tests
+tests
+
+#rust pow
+rust_pow/target

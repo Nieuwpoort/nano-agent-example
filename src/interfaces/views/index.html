@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ifenpay Payment Agent</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="ifen">ifen</span><span class="pay">pay</span><span class="ifen"> Agent</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container" style="display: block; max-width: 920px; margin: 0 auto;">
+        <div class="chat-card" style="min-height: 70vh;">
+            <!-- Title -->
+            <div class="chat-header">
+                <h1>AI-to-AI Payment Agent</h1>
+                <p>Multideployable Non-Custodial Payment Agent</p>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be inserted here -->
+            </div>
+
+            <!-- Input Area -->
+            <div class="chat-input-wrapper">
+                <div class="chat-input-row">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="💬 Type your message here..."
+                        rows="1"
+                    ></textarea>
+                    <button id="sendButton" class="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
